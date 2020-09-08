@@ -170,6 +170,7 @@ textarea {
 	background-position: center top;
 	background-size: initial;
 	height: 715px;
+	z-index: 11;
 }
 
 .header__menu ul li a {
@@ -285,7 +286,7 @@ h1 {
 
 .mainblock {
 	position: relative;
-	    z-index: 9;
+	    z-index: 11;
 }
 
 .blocklink {
@@ -324,23 +325,14 @@ h1 {
 	background-repeat: no-repeat;
 }
 
-.imgtextblock_1 {
-	background-image: url(/images/bg2.png);
-	background-position: center bottom;
-	background-size: initial;
-	background-repeat: no-repeat;
-	height: 823px;
-	margin-top: -80px;
-	padding-top: 95px;
-}
-
 .title {
 	
   font-size: 65px;
 font-family: 'Days One';
   color: rgb(0, 0, 0);
   text-transform: uppercase;
-  margin: 20px 0;
+  margin: 20px 0 30px 0;
+  line-height: 1.1;
   
 
 }
@@ -369,7 +361,8 @@ font-family: 'Days One';
   background-repeat: no-repeat;
   list-style: none;
   padding-left: 20px;
-  margin: 20px 0
+  margin: 20px 0;
+      font-weight: 500;
 }
 
 
@@ -394,12 +387,38 @@ font-family: 'Days One';
    max-width: initial;
 }
 
+.imgtextblock_1 {
+	background-image: url(/images/bg2.png);
+	background-position: center bottom;
+	background-size: initial;
+	background-repeat: no-repeat;
+	height: 823px;
+	margin-top: -80px;
+	padding-top: 105px;
+z-index: 9;
+}
+
 .imgtextblock_2 {
 	background-image: url(/images/bg3.png);
 	background-position: center bottom;
 	background-size: initial;
 	background-repeat: no-repeat;
-	height: 823px;
+	height: 833px;
+		z-index: 8;
+	position: relative;
+	margin-top: -80px;
+	padding-top: 100px;
+}
+.imgtextblock_3 {
+	background-image: url(/images/bg4.png);
+	background-position: center bottom;
+	background-size: initial;
+	background-repeat: no-repeat;
+	height: 839px;
+		z-index: 7;
+	position: relative;
+	margin-top: -80px;
+	padding-top: 120px;
 }
 
 .imgtextblock {
@@ -421,8 +440,30 @@ font-family: 'Days One';
     border-right-color:#dddddf;
     transform: rotate(45deg);
 }
+.imgtextblock_2 .textcontent {
+	padding: 0 5px;
+}
 
+.text {
+	    font-weight: 500;
+}
 
+.imgtextblock_3 .imgblock {
+	margin-left: -130px;
+	bottom: 150px;
+}
+
+.imgtextblock_3 .textcontent {
+	padding: 20px 0 15px 0;
+}
+
+.imgtextblock_3 .text {
+	margin: 10px 0 20px 0;
+}
+.imgtextblock_3 .text_link {
+	margin: 10px 0 20px 0;
+	padding-top: 10px;
+}
 
 
 @media (min-width: 768px) {
