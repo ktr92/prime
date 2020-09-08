@@ -465,6 +465,227 @@ z-index: 9;
 	padding-top: 10px;
 }
 
+.item__img {
+	width: 168px;
+	height: 160px;
+	border: 2px solid #000;
+	background: #fff;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+.item__text1 {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+
+}
+.item__text2 {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+.item__text3 {
+  font-size: 13px;
+  color: #666666;
+
+  line-height: 1.2;
+  text-align: center;
+}
+.items {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1140px;
+	margin: auto;
+}
+
+.item {
+	width: 33%;
+	max-width: 288px;
+}
+.item__content {
+	text-align: center;
+}
+
+.textbig {
+  font-size: 24px;
+ 
+  line-height: 1.25;
+  
+}
+
+.aboutblock .title {
+	text-align: center;
+	margin: 20px 0;
+}
+.aboutblock .textbig {
+	text-align: center;
+	margin: 20px 0 44px 0;
+}
+.aboutblock {
+	padding-bottom: 55px;
+}
+
+.itemsblock {
+	background-image: url(/images/strelka.png);
+	background-position: center top 63px;
+	background-size: initial;
+	background-repeat: no-repeat;
+}
+
+.wave {
+	background-image: url(/images/bg5.png);
+	background-position: center;
+	background-size: initial;
+	background-repeat: no-repeat;
+	height: 99px;
+	width: 100%;
+	    z-index: 12;
+    position: relative;
+}
+
+.map {
+    margin-top: -80px;
+}
+
+.contacts {
+	width: 415px;
+	height: 433px;
+	box-shadow: 0 0 25px 5px #ccc;
+}
+
+.contacts__content {
+	padding: 38px;
+}
+
+.contacts__title {
+  font-size: 36px;
+  font-family: 'Days One';
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.contacts__tel a{
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+ 
+}
+.contacts__address{
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+ 
+}
+
+.contacts__email span {
+	  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+.contacts__site span {
+	  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+.contacts__email a {
+	  font-size: 18px;
+  color: #999999;
+}
+.contacts__site a {
+	  font-size: 18px;
+  color: #999999;
+}
+
+.contacts__rekv a {
+	font-weight: bold;
+	font-size: 18px;
+	border-bottom: 2px solid #07a8d3;
+	padding-bottom: 2px;
+	color: #000;
+}
+
+.contacts__content > div {
+	margin-bottom: 22px;
+}
+
+.map {
+	position: relative;
+}
+
+.contacts {
+	position: absolute;
+	bottom: 65px;
+	background: #fff;
+}
+
+.copy {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+}
+.copy span {
+	 font-size: 16px;
+}
+.share__text {
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+    font-weight: 500;
+	padding-top: 5px;
+}
+
+.share__links a {
+	margin: 0 1px;
+	display: inline-block; 
+	width: 24px;
+	height: 24px;
+	background-image: url(/images/socials.png);
+}
+
+.share__links {
+text-align: center;
+padding-top: 5px;
+}
+
+.share__vk {
+		background-position: top -5px left -5px;
+}
+.share__fb {
+		background-position: top -5px left -33px;
+}
+.share__tw {
+		background-position: top -5px left -61px;
+}
+
+.share__in {
+		background-position: top -5px left -89px;
+}
+.share__vb {
+		background-position: top -5px left -117px;
+}
+.share__wa {
+		background-position: top -5px left -145px;
+}
+.share__sk {
+		background-position: top -5px left -173px;
+}
+.share__tg {
+		background-position: top -5px left -201px;
+}
+
+
+
+#footer {
+	padding: 20px 0
+}
+
 
 @media (min-width: 768px) {
 	.modal-dialog {
