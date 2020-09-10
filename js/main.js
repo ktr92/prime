@@ -7,10 +7,12 @@ $(document).ready(function() {
 
 
 $(window).scroll(function() {
+	if ($(window).width() > 991) {
     scroll = $(window).scrollTop();
 
     if (scroll >= 700) $('#header').addClass('fixed');
     else $('#header').removeClass('fixed');
+	}
 });
 
 
