@@ -104,7 +104,7 @@ textarea {
 }
 
 .check label:before {
-	background: url(/images/checkbox.png) left center no-repeat;
+	background: url(../images/checkbox.png) left center no-repeat;
 	content: "";
 	width: 16px;
 	height: 16px;
@@ -113,7 +113,7 @@ textarea {
 }
 
 .check input[type=checkbox]:checked+label:before {
-	background: url(/images/checkbox_checked.png) left center no-repeat;
+	background: url(../images/checkbox_checked.png) left center no-repeat;
 }
 
 ::-webkit-input-placeholder {
@@ -161,7 +161,7 @@ textarea {
 }
 
 .mainblock {
-	background-image: url(/images/bg1.png);
+	background-image: url(../images/bg1.png);
 	background-position: center top;
 	background-size: initial;
 	height: 715px;
@@ -213,7 +213,7 @@ textarea {
 }
 
 .header__logo {
-	background-image: url(/images/bg-logo.png);
+	background-image: url(../images/bg-logo.png);
 	background-position: center top;
 	background-size: initial;
 	height: 120px;
@@ -351,7 +351,7 @@ h1 {
 	display: block;
 	width: 55px;
 	height: 55px;
-	background-image: url(/images/angle1.png);
+	background-image: url(../images/angle1.png);
 	background-position: center;
 	background-size: initial;
 	background-repeat: no-repeat;
@@ -359,7 +359,7 @@ h1 {
 	background-color: #fff;
 }
 .blocklink a:hover {	
-	background-image: url(/images/angle2.png);
+	background-image: url(../images/angle2.png);
 	background-position: center;
 	background-size: initial;
 	background-repeat: no-repeat;
@@ -396,7 +396,7 @@ font-family: 'Days One';
 	 font-size: 20px;
   color: rgb(0, 0, 0);
   line-height: 1.2;
-  background-image: url(/images/list.png);
+  background-image: url(../images/list.png);
   background-position: left top 8px;
   background-repeat: no-repeat;
   list-style: none;
@@ -432,7 +432,7 @@ font-family: 'Days One';
 }
 
 .imgtextblock_1 {
-	background-image: url(/images/bg2.png);
+	background-image: url(../images/bg2.png);
 	background-position: center bottom;
 	background-size: initial;
 	background-repeat: no-repeat;
@@ -443,7 +443,7 @@ z-index: 9;
 }
 
 .imgtextblock_2 {
-	background-image: url(/images/bg3.png);
+	background-image: url(../images/bg3.png);
 	background-position: center bottom;
 	background-size: initial;
 	background-repeat: no-repeat;
@@ -454,7 +454,7 @@ z-index: 9;
 	padding-top: 100px;
 }
 .imgtextblock_3 {
-	background-image: url(/images/bg4.png);
+	background-image: url(../images/bg4.png);
 	background-position: center bottom;
 	background-size: initial;
 	background-repeat: no-repeat;
@@ -579,14 +579,14 @@ z-index: 9;
 }
 
 .itemsblock {
-	background-image: url(/images/strelka.png);
+	background-image: url(../images/strelka.png);
 	background-position: right top 63px;
 	background-size: initial;
 	background-repeat: no-repeat;
 }
 
 .wave {
-	background-image: url(/images/bg5.png);
+	background-image: url(../images/bg5.png);
 	background-position: center;
 	background-size: initial;
 	background-repeat: no-repeat;
@@ -691,7 +691,7 @@ z-index: 9;
 	display: inline-block; 
 	width: 24px;
 	height: 24px;
-	background-image: url(/images/socials.png);
+	background-image: url(../images/socials.png);
 }
 
 .share__links {
@@ -826,7 +826,7 @@ body.modal-open {
 }
 
 .modal__form .check label:before {
-	background: url(/images/checkbox_black.png) left center no-repeat;
+	background: url(../images/checkbox_black.png) left center no-repeat;
 	content: "";
 	width: 16px;
 	height: 16px;
@@ -835,7 +835,7 @@ body.modal-open {
 }
 
 .modal__form .check input[type=checkbox]:checked+label:before {
-	background: url(/images/checkbox_black_checked.png) left center no-repeat;
+	background: url(../images/checkbox_black_checked.png) left center no-repeat;
 }
 
 .form-group {
@@ -1285,7 +1285,7 @@ h1 {
 	display: block;
 	width: 20px;
 	height: 35px;
-	background-image: url(/images/str.png);
+	background-image: url(../images/str.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	text-align: center;
